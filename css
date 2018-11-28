@@ -1,0 +1,175 @@
+/* hide original subscription title */
+.jetpack_subscription_widget .widgettitle, .jetpack_subscription_widget #subscribe-text {
+    display: none;
+}
+
+/* change site title font size */
+.site-title {
+	font-size: 27px;
+}
+/**Remove Header Color from chat on 9.19.17**/
+#header{ background-color: transparent;}
+body.blog .page-title h2 {
+  font-size: 21px;
+}
+
+
+.entry blockquote {
+	margin: 20px 0 20px 0;
+}
+
+/** Increase content line spacing on blog page **/
+
+.blog .post-774 .entry.excerpt p {
+    margin-bottom: 20px;
+	font-size:20px;
+}
+
+/** remove sidebar on blog page
+
+.blog .col-3cm .main-inner {
+   background: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+ **/
+/* paragraph spacing in excerpts */
+.entry.excerpt p{
+   margin-bottom: 1.5em;
+}
+.blog .main-inner {
+	padding-left: 0px;
+	padding-right: 0px;
+	background: none;
+}
+
+.blog.col-3cm .main {
+	background: none;
+}
+.blog .main-inner, .single-post .main-inner  {
+	padding-left: 0px;
+	padding-right: 0px;
+	background: none;
+}
+
+.blog.col-3cm .main, .single-post.col-3cm .main  {
+	background: none;
+}
+
+.full-width:not(.home) .main-inner {
+	padding-left: 0px;
+	padding-right: 0px;
+	background: none;
+}
+
+.full-width.col-3cm:not(.home) .main  {
+	background: none;
+}
+/* change font size of featured post body copy */
+.entry.excerpt {
+font-size: 1.3em;
+}
+/* Changes the size of the text in the primary header menu */
+@media only screen and (min-width: 720px) {
+.nav > li {
+     font-size: 1.2rem;
+}
+}
+#footer-bottom #copyright, #footer-bottom #credit {
+    font-size: 20px !important;
+}
+.page-id-985 .page-title h1 { font-size: 3em; } .page-id-985 .content p { font-size: 1.2em; }
+
+.page-id-985 .page-title h1 {
+    font-size: 1.7em;
+}
+
+
+/* Fix horizontal-scrollbar issue by removing (not-visible) sidebar from pages "Web Annotations", "Blog" and posts */
+.page-id-2433 .sidebar.s2.collapsed, .blog .sidebar.s2.collapsed, .single-post .sidebar.s2.collapsed {
+	display: none;
+}
+/* Remove sidebar 1 from page "Blog" */
+.page-id-2433 .sidebar.s1.collapsed, .blog
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+/* Increase font size of the title on the "About Drew" page */
+.page-id-1086 .page-title h1 {
+    font-size: 1.7em;
+}
+/* Increase font size of the title on the "Web Adnnotations" page */
+.page-id-2433 .page-title h1 {
+    font-size: 1.7em
+}
+.page-id-2433 #page p {
+    font-size: 1.2em;
+}
+/* Increase font size of the title on the Blog page */
+body.blog .page-title h2 {
+  font-size: 1.7em;
+}
+/* Increase font size of the title on the "Southern Connecticut State University" page */
+.page-id-914 .page-title h1 {
+    font-size: 1.7em;
+}
+/*increase font size on hmepage middle section*/
+.entry p {
+  font-size: 25px;
+}
+/* give space between social icons */
+.page-social-icons .fab {
+    margin: 10px;
+}
+/* center social icons and add margin bottom */
+.page-social-icons {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* add margin-bottom to the video container */
+.video-container {
+    margin-bottom: 90px;
+}
+/* add margin-top to the video container */
+.video-container {
+	  margin-top: 90px;
+}
+/* add margin-top to the video container */
+.video-container {
+	  margin-top: 90px;
+}
+/* Remove sidebars from category page */
+.page-id-1 sidebar.s1.collapsed, .page-id-1
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+.archive .page-title {
+display: none;
+}
+
+.post-meta .post-category {
+display: none;
+}
+.single-post .entry-header {
+    display: none;
+}
+.single-post .page-title {
+    display: none;
+}
+/* Remove sidebars from page "Aunt Rosemary" */
+.page-id-423 sidebar.s1.collapsed, .page-id-423
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+.page-id-423 sidebar.s2.collapsed, .page-id-423
+.sidebar.s2.collapsed, .single-post
+.sidebar.s2.collapsed {
+	display: none;
+}
+.page-id-423 .page-title {
+    font-size: 1.7em;
+}

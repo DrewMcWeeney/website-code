@@ -24,7 +24,6 @@ body.blog .page-title h2 {
     margin-bottom: 20px;
 	font-size:20px;
 }
-
 /** remove sidebar on blog page
 
 .blog .col-3cm .main-inner {
@@ -32,8 +31,6 @@ body.blog .page-title h2 {
 	padding-left: 0;
 	padding-right: 0;
 }
-
- **/
 /* paragraph spacing in excerpts */
 .entry.excerpt p{
    margin-bottom: 1.5em;
@@ -175,3 +172,40 @@ display: none;
 }
 .page-id-2433 container-inner>.main::after, .container-inner>.main::before { background-color: #ffffff}
 .page-id-2433 container-inner>.main::after, .container-inner>.main::after { background-color: #ffffff}
+.sidebar {
+	padding-bottom:0;
+}
+	@media (min-width: 1200px) {
+		.main-inner.group {
+			display:flex;
+		}
+	
+	.content {
+		order: 1;
+	}
+		
+	.sidebar-content {
+		height:100%;
+	}
+}
+.widget  iframe[src*="embed.music.apple.com"] {
+	 min-height:385px
+}
+/* Increase font size of the title on the "3toPonder Podcast" page */
+.page-id-4004 .page-title h1 {
+    font-size: 1.7em
+}
+.page-id-2433 #page p {
+    font-size: 1.2em;
+}
+/* Remove sidebars from page "3toPonder Podcast" */
+.page-id-4004 sidebar.s1.collapsed, .page-id-4004
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+.page-id-4004 sidebar.s2.collapsed, .page-id-4004
+.sidebar.s2.collapsed, .single-post
+.sidebar.s2.collapsed {
+	display: none;
+}

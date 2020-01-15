@@ -209,3 +209,57 @@ display: none;
 .sidebar.s2.collapsed {
 	display: none;
 }
+/* Increase font size of the title on the "Electronic Music" page */
+.page-id-4048 .page-title h1 {
+    font-size: 1.7em
+}
+.page-id-2433 #page p {
+    font-size: 1.2em;
+}
+/* Remove sidebars from page "Electronic Music" */
+.page-id-4048 sidebar.s1.collapsed, .page-id-4048
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+.page-id-4048 sidebar.s2.collapsed, .page-id-4048
+.sidebar.s2.collapsed, .single-post
+.sidebar.s2.collapsed {
+	display: none;
+}
+/* Increase font size of the title on the "Videos" page */
+.page-id-4184 .page-title h1 {
+    font-size: 1.7em
+}
+.page-id-4184 #page p {
+    font-size: 1.2em;
+}
+/* Remove sidebars from page "Videos" */
+.page-id-4184 sidebar.s1.collapsed, .page-id-4184
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+.page-id-4184 sidebar.s2.collapsed, .page-id-4184
+.sidebar.s2.collapsed, .single-post
+.sidebar.s2.collapsed {
+	display: none;
+}
+/* Increase font size of the title on the "i-Tips Video Series" page */
+.page-id-4381 .page-title h1 {
+    font-size: 1.7em
+}
+.page-id- #page p {
+    font-size: 1.2em;
+}
+/* Remove sidebars from page "i-Tips Video Series" */
+.page-id-4381 sidebar.s1.collapsed, .page-id-4381
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+.page-id-4381 sidebar.s2.collapsed, .page-id-4381
+.sidebar.s2.collapsed, .single-post
+.sidebar.s2.collapsed {
+	display: none;
+}

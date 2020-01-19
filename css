@@ -263,3 +263,14 @@ display: none;
 .sidebar.s2.collapsed {
 	display: none;
 }
+/* Remove sidebars from category pages */
+.category-freeyourmindblog sidebar.s1.collapsed, .category-freeyourmindblog
+.sidebar.s1.collapsed, .single-post
+.sidebar.s1.collapsed {
+	display: none;
+}
+.category-freeyourmindblog sidebar.s2.collapsed, .category-freeyourmindblog
+.sidebar.s2.collapsed, .single-post
+.sidebar.s2.collapsed {
+	display: none;
+}
